@@ -17,10 +17,10 @@ A: List or an array of elements.
     end for
     return A
 ```
-Worst Case: О(n^2) \n
-Best Case: O(n) \n
-Average Case: O(n^2) \n
-\n
+Worst Case: О(n^2)
+Best Case: O(n)
+Average Case: O(n^2)
+
 # Insertion Sort
 ```insertionsort(A)
     Size = length(A)
