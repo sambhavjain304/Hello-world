@@ -17,9 +17,9 @@ A: List or an array of elements.
     end for
     return A
 ```
-Worst Case: О(n^2)
-Best Case: O(n)
-Average Case: O(n^2)
+Worst Case: О(n^2) <br />
+Best Case: O(n) <br />
+Average Case: O(n^2) <br />
 
 # Insertion Sort
 ```insertionsort(A)
@@ -34,9 +34,9 @@ Average Case: O(n^2)
     end for
     return A
 ```  
-Worst Case: O(n^2)
-Best Case: O(n)
-Average Case: O(n^2)
+Worst Case: O(n^2) <br />
+Best Case: O(n) <br />
+Average Case: O(n^2) <br />
 
 # Merge Sort
 ```mergeHalves(A, leftstart, mid, rightend)
@@ -82,11 +82,11 @@ Average Case: O(n^2)
     mergeHalves(A, leftstart, mid, rightend)
 ```
 
-Worst Case: O(n logn)
-Best Case: O(n logn) Typical, O(n) natural variant.
-Average Case: O(n logn)
+Worst Case: O(n logn)<br />
+Best Case: O(n logn) Typical, O(n) natural variant.<br />
+Average Case: O(n logn)<br />
 
-#Quick Sort
+# Quick Sort
 
 ```partition(A, start, end)
     pivot = A[end]
@@ -110,11 +110,11 @@ Average Case: O(n logn)
     return A
 ```
 
-Worst Case: O(n^2)
-Best Case: O(n logn)
-Average Case: O(n logn)
+Worst Case: O(n^2)<br />
+Best Case: O(n logn)<br />
+Average Case: O(n logn)<br />
 
-#Selection Sort
+# Selection Sort
 
 ```select_sort(A)
     Size = length(A)
@@ -129,6 +129,6 @@ Average Case: O(n logn)
     return A
 ```
 
-Worst Case: O(n^2)
-Best Case: O(n^2)
-Average Case: O(n^2)
+Worst Case: O(n^2)<br />
+Best Case: O(n^2)<br />
+Average Case: O(n^2)<br />
